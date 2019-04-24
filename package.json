@@ -1,0 +1,22 @@
+{
+  "name": "certbot-hook",
+  "version": "0.0.1",
+  "description": "certbot hook for aliyun",
+  "main": "index.js",
+  "bin": {
+    "certbot-hook": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eks5115",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eks5115/certbot-hook.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.6",
+    "yargs": "^13.2.2"
+  }
+}
